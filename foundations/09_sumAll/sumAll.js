@@ -1,5 +1,7 @@
 const sumAll = function(a, b) {
     let result = 0;
+    let start = "";
+    let end = "";
 
 };
 
