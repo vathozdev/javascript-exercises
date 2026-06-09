@@ -1,4 +1,5 @@
 const leapYears = function(year) {
+ if ( typeof year !== "number" ) { return false; }
  if( year % 4 === 0 && year % 100 !== 0) {
     return true;
  }  else if( year % 400 === 0) {
