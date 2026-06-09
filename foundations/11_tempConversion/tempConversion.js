@@ -5,7 +5,8 @@ const convertToCelsius = function(fahreinheit) {
 
 };
 
-const convertToFahrenheit = function() {
+const convertToFahrenheit = function(celcius) {
+  let fahreinheit = ( celcius * 1.8 ) + 32;
 };
 
 // Do not edit below this line
