@@ -16,7 +16,11 @@ const sum = function(arr) {
   return totalSum;
 };
 
-const multiply = function() {
+const multiply = function(arr) {
+  let totalSum = 1;
+  for ( let i = 0; i < arr.length; i++ ) {
+    totalSum += arr[i];
+  }
 
 };
 
