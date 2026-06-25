@@ -1,6 +1,6 @@
 const palindromes = function (str) {
     let loweredCase = str.toLowerCase();
-    let cleanedStr = loweredCase.replace()
+    let cleanedStr = loweredCase.replace(/[^a-zA-Z0-9\s]/g, "");
 };
 
 // Do not edit below this line
