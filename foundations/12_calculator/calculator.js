@@ -24,8 +24,11 @@ const multiply = function(arr) {
 
 };
 
-const power = function() {
-	
+const power = function(x, n) {
+	let totalSum = 1;
+  for ( let i = 1; i <= n; i++) {
+    totalSum = totalSum * x ;   
+  } return totalSum;
 };
 
 const factorial = function() {
